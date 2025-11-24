@@ -1,0 +1,23 @@
+.experience__name {
+    margin-bottom: 0.25em;
+}
+
+.experience__location {
+    font-size: 0.5em;
+}
+
+.experience__date {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.experience__container {
+  padding: 2em;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.experience__container:hover {
+  transform: translateY(-7px);
+}
